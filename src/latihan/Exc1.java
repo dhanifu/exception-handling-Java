@@ -14,7 +14,7 @@ public class Exc1 {
         int n = 0;
         n = System.in.read();
         System.out.println("Hasil: " +(char) n);
-        
+        asdas
         // Errornya karena belum menggunakan try dan catch
     }
 }
