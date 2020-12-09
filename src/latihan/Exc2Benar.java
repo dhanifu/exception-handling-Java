@@ -19,11 +19,6 @@ public class Exc2Benar {
             System.out.print("Input kata : ");
             System.in.read(b);
             System.out.println("Hasil      : " + (char) b[0] + (char) b[1] + (char) b[2]);
-            
-            // JIKA DIRUN
-            // Input kata : Bebas
-            // Hasil      : Beb
-            
         } catch (java.io.IOException e) {
             System.out.println("Error : " + e.getMessage());
         }
